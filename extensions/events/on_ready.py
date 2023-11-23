@@ -17,7 +17,7 @@ class OnReady(BaseCog):
 
         await self.client.change_presence(
             status=disnake.Status.online, activity=disnake.Activity(name=f"за {len(guild.members)} ёкаями",
-                                                                  type=disnake.ActivityType.watching))
+                                                                    type=disnake.ActivityType.watching))
 
         print(
             f"\033[38;5;38m[CLIENT] \033[38;5;67m⌗ \033[38;5;105m{self.client.user}\033[0;0m is worked stable.\n"
