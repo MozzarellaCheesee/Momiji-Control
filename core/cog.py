@@ -1,4 +1,5 @@
 from disnake.ext import commands
+from core.settings import guild_id, role_id
 
 
 class BaseCog(commands.Cog):
