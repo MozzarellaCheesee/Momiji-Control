@@ -1,0 +1,7 @@
+.idea
+start.bat
+LICENSE
+*.pyc
+__pycache__
+/logs
+*.xml
