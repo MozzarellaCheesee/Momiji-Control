@@ -3,7 +3,7 @@ from disnake.ext import commands
 from core.settings import config
 from tools.system_utils import load_extensions
 
-client = commands.InteractionBot(intents=disnake.Intents.all())
+client = commands.Bot(intents=disnake.Intents.all(), command_prefix="control+")
 
 
 async def main():

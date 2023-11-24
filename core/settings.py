@@ -2,7 +2,9 @@ from dotenv import dotenv_values
 
 config = dotenv_values()
 
-commands_ = {}
+commands_ = {
+    "extensions.commands.info"
+}
 
 events = {
     "extensions.events.on_ready",
